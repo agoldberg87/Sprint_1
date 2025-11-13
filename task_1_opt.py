@@ -24,7 +24,3 @@ def remove_duplicates(tickets_dict):
 
 def rename_keys(tickets_dict, types_dict):
     return {types_dict[key]: value for key, value in tickets_dict.items()}
-
-remove_duplicates(tickets)
-
-print(rename_keys(tickets, types))
